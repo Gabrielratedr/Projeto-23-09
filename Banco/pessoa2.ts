@@ -18,22 +18,22 @@ constructor (
     saldo: number,
     receber: number
 ) {
-    super (nome, cpf, rg, saldo)
-    this.conta = conta
-    this.agencia = agencia
-    this.digitoVerificador = digitoVerificador
-    this.tipoDeConta = tipoDeConta
-    this.receber = receber
+    super (nome, cpf, rg, saldo);
+    this.conta = conta;
+    this.agencia = agencia;
+    this.digitoVerificador = digitoVerificador;
+    this.tipoDeConta = tipoDeConta;
+    this.receber = receber;
 }
 reeceber(){
-    console.log(`O valor recebido foi de: R$ ${this.receber}`)
+    console.log(`O valor recebido foi de: R$ ${this.receber}`);
 }
 
 verSaldo(){
-    console.log(`\nJorge:`)
-    console.log(`O seu saldo é de: ${this.saldo}`)
+    console.log(`Jorge:`)
+    console.log(`O seu saldo é de: ${this.saldo}`);
 }
 verDados () {
-    console.log (`Nome: ${this.nome}.\nCPF: ${this.cpf}.\nRG: ${this.rg}.\nConta: ${this.conta}.`)
+    console.log (`\nNome: ${this.nome}.\nCPF: ${this.cpf}.\nRG: ${this.rg}.\nConta: ${this.conta}.`);
 }
 }
