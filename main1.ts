@@ -14,7 +14,7 @@ pessoaUm.verSaldo();
 pessoaUm.valorTransferir();
 let resultado = (saldo: number, quantidadeTransferir: number) => saldo - quantidadeTransferir;
 console.log("O seu saldo ATUAL agora é de R$ " + resultado(500,100));
-let extrato = ["TRANSFÊRENCIA PIX DE ANTÔNIO PARA JORGE NO VALOR DE R$ 100,00 REALIZADA COM SUCESSO!"];
+let extrato = ["TRANSFÊRENCIA PIX DE ANTÔNIO PARA JORGE NO VALOR DE R$ 100,00 REALIZADA COM SUCESSO!\n"];
 console.log(extrato[0]);
 
 // Interface do usuário do banco que acabou de receber um PIX:
