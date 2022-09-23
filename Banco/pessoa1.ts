@@ -19,21 +19,21 @@ constructor (
     saldo: number
     
 ) {
-    super (nome, cpf, rg, saldo)
-    this.conta = conta
-    this.agencia = agencia
-    this.digitoVerificador = digitoVerificador
-    this.tipoDeConta = tipoDeConta
-    this.quantidadeTransferir = quantidadeTransferir
+    super (nome, cpf, rg, saldo);
+    this.conta = conta;
+    this.agencia = agencia;
+    this.digitoVerificador = digitoVerificador;
+    this.tipoDeConta = tipoDeConta;
+    this.quantidadeTransferir = quantidadeTransferir;
 }
 verSaldo(){
-    console.log(`Antônio:`);
+    console.log(`\nAntônio:`);
     console.log(`O seu saldo é de R$ ${this.saldo}`);
 }
 valorTransferir(){
-    console.log(`O valor transferido foi de R$ ${this.quantidadeTransferir}`)
+    console.log(`O valor transferido foi de R$ ${this.quantidadeTransferir}`);
 }
 verDados () {
-    console.log (`Nome: ${this.nome}.\nCPF: ${this.cpf}.\nRG: ${this.rg}.\nConta: ${this.conta}.`)
+    console.log (`\nNome: ${this.nome}.\nCPF: ${this.cpf}.\nRG: ${this.rg}.\nConta: ${this.conta}.`);
 }
 }
